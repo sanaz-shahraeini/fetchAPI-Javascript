@@ -4,8 +4,8 @@ This project demonstrates how to fetch and display user data from the [ReqRes](h
 
 ## Output
 
-<center> <img src="./output.png" width="400" height="200"/> </center>
-[output in image](./output.png)
+<img src="./output.png"> 
+[image](./output.png)
 
 ## 📋 Table of Contents
 
