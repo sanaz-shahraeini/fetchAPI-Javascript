@@ -44,19 +44,19 @@ This project is a simple web page that fetches user data from the ReqRes API and
 
 1. HTML Structure:
 
-✔️ The HTML structure includes a div with the class App which contains an h1 and another div with the class flex and ID user-container.
-✔️ This user-container is where user data will be dynamically inserted.
+- ✔️The HTML structure includes a div with the class App which contains an h1 and another div with the class flex and ID user-container.
+- ✔️ This user-container is where user data will be dynamically inserted.
 
 2. CSS Styling:
 
-✔️ The CSS file styles the container, flexbox layout, individual user divs, and images. It ensures that the user information is presented in a clean, organized manner.
+- ✔️ The CSS file styles the container, flexbox layout, individual user divs, and images. It ensures that the user information is presented in a clean, organized manner.
 
 3. JavaScript:
 
-✔️ The JavaScript file handles fetching user data from the API and displaying it on the webpage.
-fetchUsers is an asynchronous function that fetches user data from the API, parses the JSON response, and calls displayUsers to update the DOM.
-✔️ displayUsers iterates over the user data, creating and appending elements for each user's name, email, and avatar to the user-container.
-✔️ The DOMContentLoaded event ensures that the JavaScript runs after the HTML content has been loaded.
+- ✔️ The JavaScript file handles fetching user data from the API and displaying it on the webpage.
+  fetchUsers is an asynchronous function that fetches user data from the API, parses the JSON response, and calls displayUsers to update the DOM.
+- ✔️ displayUsers iterates over the user data, creating and appending elements for each user's name, email, and avatar to the user-container.
+- ✔️ The DOMContentLoaded event ensures that the JavaScript runs after the HTML content has been loaded.
 
 ## 🔦 Overview
 
