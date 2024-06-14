@@ -2,6 +2,10 @@
 
 This project demonstrates how to fetch and display user data from the [ReqRes](https://reqres.in/) API using plain HTML, CSS, and JavaScript.
 
+## Output
+
+<img src="./output.png" />
+
 ## 📋 Table of Contents
 
 - [Introduction](#introduction)
