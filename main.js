@@ -3,10 +3,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   const userContainer = document.getElementById("user-container");
   async function fetchUsers() {
-    const res = await fetch("https://reqres.in/api/users");
-    const json = await res.json();
-    // console.log(json.data)
-    displayUsers(json.data);
+    try {
+      const response = await fetch("https://reqres.in/api/users/");
+      const json = await response.json();
+      displayUsers(json.data);
+    } catch (error) {
+      console.error("Error fetching users:", error);
+    }
   }
 
   function displayUsers(users) {
@@ -33,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   fetchUsers();
 });
-
 
 //  <div>
 //   <p>
