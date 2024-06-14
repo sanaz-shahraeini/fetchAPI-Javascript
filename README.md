@@ -1,10 +1,11 @@
-# ReqRes Users Fetch Example 🎉
+# 🎉 ReqRes Users Fetch Example 🎉
 
 This project demonstrates how to fetch and display user data from the [ReqRes](https://reqres.in/) API using plain HTML, CSS, and JavaScript.
 
 ## Output
 
-[image](./output.png)
+<center> <img src="./output.png" width="400" height="200"/> </center>
+[output in image](./output.png)
 
 ## 📋 Table of Contents
 
