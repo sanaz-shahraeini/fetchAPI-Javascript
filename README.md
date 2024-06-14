@@ -5,7 +5,6 @@ This project demonstrates how to fetch and display user data from the [ReqRes](h
 ## Output
 
 <img src="./output.png"> 
-[image](./output.png)
 
 ## 📋 Table of Contents
 
